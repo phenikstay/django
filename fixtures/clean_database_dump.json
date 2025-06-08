@@ -1,0 +1,3088 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$RfLWIQWvF00TXVBxmXNaFc$uKm3ujcDgIM96+XkZf4tJvlvG+XzWI9r73/yhBhWvEQ=",
+    "last_login": "2025-06-08T16:19:12.536Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-07T18:32:17Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$OVtkHcqjCt03mxNFEV5Eud$U3sNhOrxss70XQjoHkcQlbExkvEx1YY5bYh9GMdSav4=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user1",
+    "first_name": "",
+    "last_name": "",
+    "email": "user1@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T18:32:18Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$kfuvdIpZ7m7ljQVUCKxvsv$Elmk4kGRmoXi45Ts4gAR6Lp54w25DP8faTKMbU/sneM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "email": "user2@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T18:32:19Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$5OPvHJHznX1d9BqiU6JFkb$sDDlPDCZOTBC7O9zIgCb7kBd4JNd4xHfRF+qFLmNz6s=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user3",
+    "first_name": "",
+    "last_name": "",
+    "email": "user3@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T18:32:20Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$3bJ63NOJvyDikzJ6Hhwnrc$JGzI814axWFbryedVrC36kJpQUV/MN6oTKQ5JAReY18=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user4",
+    "first_name": "",
+    "last_name": "",
+    "email": "user4@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T18:32:21Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$VwFYjO9ol28wqEBxb4FESz$1LfweF6oZNw14z8Hmyu4HOMuOU2/YmbqINU9PTpyz8s=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user5",
+    "first_name": "",
+    "last_name": "",
+    "email": "user5@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-06-07T18:32:21Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "phone": "+7(000)000-00-00",
+    "avatar": "avatars/73134-4_8bSjqD5.png",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "fullName": "Иван Петров",
+    "phone": "+7(921)111-22-33",
+    "avatar": "avatars/1662642122_5-kartinkin-net-p-risunok-na-avatarku-dlya-muzhchin-instagra-5.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "fullName": "Александр Смирнов",
+    "phone": "+7(905)222-33-44",
+    "avatar": "avatars/1662642172_2-kartinkin-net-p-risunok-na-avatarku-dlya-muzhchin-instagra-2.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "fullName": "Екатерина Иванова",
+    "phone": "+7(911)333-44-55",
+    "avatar": "avatars/varvara-mitiaeva-2.webp",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "fullName": "Дмитрий Козлов",
+    "phone": "+7(903)444-55-66",
+    "avatar": "avatars/7181149979b9cc345415d3b6465b192b.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 6,
+  "fields": {
+    "user": 6,
+    "fullName": "Анна Морозова",
+    "phone": "+7(912)555-66-77",
+    "avatar": "avatars/iuliia-shmyreva-1.webp",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Gaming",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Laptops",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Smartphones",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Electronics",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Home",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Work & Office",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Accessories",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Premium",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Budget",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.tag",
+  "pk": 10,
+  "fields": {
+    "name": "New",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "title": "Электроника",
+    "image": "categories/make-electronics-part1-2nd.2.jpg",
+    "parent": null,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 2,
+  "fields": {
+    "title": "Компьютеры",
+    "image": "categories/imac_blue_01_0.jpg",
+    "parent": null,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 3,
+  "fields": {
+    "title": "Бытовая техника",
+    "image": "categories/523_original.webp",
+    "parent": null,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 4,
+  "fields": {
+    "title": "Смартфоны",
+    "image": "categories/S80bcda9b3743471c9c9234b26c25f056N.webp",
+    "parent": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 5,
+  "fields": {
+    "title": "Телевизоры",
+    "image": "categories/Televizor-Trikolor-4K-Ultra-HD-55.jpg",
+    "parent": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 6,
+  "fields": {
+    "title": "Ноутбуки",
+    "image": "categories/6714262381.jpg",
+    "parent": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 7,
+  "fields": {
+    "title": "Настольные ПК",
+    "image": "categories/Hc2a892ba180349f1b19fcd133f99e924A.webp",
+    "parent": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 8,
+  "fields": {
+    "title": "Кухонная техника",
+    "image": "categories/5KHB2571EOB.jpg",
+    "parent": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.category",
+  "pk": 9,
+  "fields": {
+    "title": "Техника для дома",
+    "image": "categories/flykwiabjdi8afqix7rsgx5zxg12z31i.jpg",
+    "parent": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 1,
+  "fields": {
+    "category": 4,
+    "title": "iPhone 14 Pro",
+    "description": "Краткое описание товара iPhone 14 Pro",
+    "fullDescription": "Полное описание товара iPhone 14 Pro. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "21008.00",
+    "count": 36,
+    "date": "2025-06-07T18:32:21.944Z",
+    "freeDelivery": false,
+    "image": "products/14-pro-black-1.jpg",
+    "image_alt": "Изображение Робот-пылесос Xiaomi",
+    "rating": 3.75,
+    "purchases_count": 22,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 2,
+  "fields": {
+    "category": 4,
+    "title": "Samsung Galaxy S23",
+    "description": "Краткое описание товара Samsung Galaxy S23",
+    "fullDescription": "Полное описание товара Samsung Galaxy S23. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "44930.00",
+    "count": 27,
+    "date": "2025-06-07T18:32:21.948Z",
+    "freeDelivery": false,
+    "image": "products/lrztvfomnudd9y8ezafj2sba8nfniqqx.webp",
+    "image_alt": "Изображение Samsung Galaxy S23",
+    "rating": 4.7,
+    "purchases_count": 0,
+    "limited": false,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 3,
+  "fields": {
+    "category": 4,
+    "title": "Xiaomi 13 Pro",
+    "description": "Краткое описание товара Xiaomi 13 Pro",
+    "fullDescription": "Полное описание товара Xiaomi 13 Pro. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "32107.00",
+    "count": 43,
+    "date": "2025-06-07T18:32:21.951Z",
+    "freeDelivery": true,
+    "image": "products/2402-700x700.png",
+    "image_alt": "Изображение Xiaomi 13 Pro",
+    "rating": 3.9,
+    "purchases_count": 16,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 4,
+  "fields": {
+    "category": 4,
+    "title": "Google Pixel 7",
+    "description": "Краткое описание товара Google Pixel 7",
+    "fullDescription": "Полное описание товара Google Pixel 7. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "47882.00",
+    "count": 15,
+    "date": "2025-06-07T18:32:21.954Z",
+    "freeDelivery": false,
+    "image": "products/800__3_.jpg",
+    "image_alt": "Изображение Google Pixel 7",
+    "rating": 3.0,
+    "purchases_count": 5,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 5,
+  "fields": {
+    "category": 4,
+    "title": "OnePlus 11",
+    "description": "Краткое описание товара OnePlus 11",
+    "fullDescription": "Полное описание товара OnePlus 11. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "31605.00",
+    "count": 41,
+    "date": "2025-06-07T18:32:21.957Z",
+    "freeDelivery": true,
+    "image": "products/16157_big.jpg",
+    "image_alt": "Изображение OnePlus 11",
+    "rating": 3.7,
+    "purchases_count": 0,
+    "limited": false,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      4,
+      5,
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 6,
+  "fields": {
+    "category": 5,
+    "title": "Samsung QLED Q80",
+    "description": "Краткое описание товара Samsung QLED Q80",
+    "fullDescription": "Полное описание товара Samsung QLED Q80. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "30293.00",
+    "count": 39,
+    "date": "2025-06-07T18:32:21.960Z",
+    "freeDelivery": false,
+    "image": "products/db878a82-a09f-4de4-9d43-ea8dd8cb76b1.916d90463ba0ab0509a3d111e650ce09.webp",
+    "image_alt": "Изображение Samsung QLED Q80",
+    "rating": 3.8,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 7,
+  "fields": {
+    "category": 5,
+    "title": "LG OLED C2",
+    "description": "Краткое описание товара LG OLED C2",
+    "fullDescription": "Полное описание товара LG OLED C2. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "16197.00",
+    "count": 43,
+    "date": "2025-06-07T18:32:21.962Z",
+    "freeDelivery": true,
+    "image": "products/OLED55C26LD_4_Supersize.jpg",
+    "image_alt": "Изображение LG OLED C2",
+    "rating": 4.9,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 8,
+  "fields": {
+    "category": 5,
+    "title": "Sony Bravia XR",
+    "description": "Краткое описание товара Sony Bravia XR",
+    "fullDescription": "Полное описание товара Sony Bravia XR. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "30567.00",
+    "count": 38,
+    "date": "2025-06-07T18:32:21.964Z",
+    "freeDelivery": true,
+    "image": "products/bv9slf2n6m0980s5qikrww05y5v5ilf8.jpg",
+    "image_alt": "Изображение Sony Bravia XR",
+    "rating": 3.6,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      5,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 9,
+  "fields": {
+    "category": 5,
+    "title": "Philips Ambilight",
+    "description": "Краткое описание товара Philips Ambilight",
+    "fullDescription": "Полное описание товара Philips Ambilight. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "13446.00",
+    "count": 49,
+    "date": "2025-06-07T18:32:21.967Z",
+    "freeDelivery": false,
+    "image": "products/televizor-philips-65pus850760.500x500.jpg",
+    "image_alt": "Изображение Philips Ambilight",
+    "rating": 4.1,
+    "purchases_count": 0,
+    "limited": false,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 10,
+  "fields": {
+    "category": 5,
+    "title": "TCL Mini LED",
+    "description": "Краткое описание товара TCL Mini LED",
+    "fullDescription": "Полное описание товара TCL Mini LED. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "9027.00",
+    "count": 50,
+    "date": "2025-06-07T18:32:21.970Z",
+    "freeDelivery": false,
+    "image": "products/orig.webp",
+    "image_alt": "Изображение TCL Mini LED",
+    "rating": 3.8,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 11,
+  "fields": {
+    "category": 6,
+    "title": "MacBook Pro",
+    "description": "Краткое описание товара MacBook Pro",
+    "fullDescription": "Полное описание товара MacBook Pro. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "13002.00",
+    "count": 48,
+    "date": "2025-06-07T18:32:21.972Z",
+    "freeDelivery": false,
+    "image": "products/macbook-pro-13-touch-bar-mpxx2ll-a-2017-silver_RAMKA.jpg",
+    "image_alt": "Изображение MacBook Pro",
+    "rating": 4.25,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      2,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 12,
+  "fields": {
+    "category": 6,
+    "title": "Dell XPS 15",
+    "description": "Краткое описание товара Dell XPS 15",
+    "fullDescription": "Полное описание товара Dell XPS 15. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "39816.00",
+    "count": 47,
+    "date": "2025-06-07T18:32:21.975Z",
+    "freeDelivery": true,
+    "image": "products/0_184352.jpg",
+    "image_alt": "Изображение Dell XPS 15",
+    "rating": 4.1,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      5,
+      9,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 13,
+  "fields": {
+    "category": 6,
+    "title": "Lenovo ThinkPad X1",
+    "description": "Краткое описание товара Lenovo ThinkPad X1",
+    "fullDescription": "Полное описание товара Lenovo ThinkPad X1. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "11964.00",
+    "count": 40,
+    "date": "2025-06-07T18:32:21.978Z",
+    "freeDelivery": false,
+    "image": "products/lenovo-thinkpad-x1-nano-g1-800x800.webp",
+    "image_alt": "Изображение Lenovo ThinkPad X1",
+    "rating": 4.7,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 14,
+  "fields": {
+    "category": 6,
+    "title": "ASUS ROG Zephyrus",
+    "description": "Краткое описание товара ASUS ROG Zephyrus",
+    "fullDescription": "Полное описание товара ASUS ROG Zephyrus. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "14340.00",
+    "count": 24,
+    "date": "2025-06-07T18:32:21.980Z",
+    "freeDelivery": true,
+    "image": "products/002_1.jpg",
+    "image_alt": "Изображение ASUS ROG Zephyrus",
+    "rating": 4.1,
+    "purchases_count": 0,
+    "limited": false,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      4,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 15,
+  "fields": {
+    "category": 6,
+    "title": "HP Spectre x360",
+    "description": "Краткое описание товара HP Spectre x360",
+    "fullDescription": "Полное описание товара HP Spectre x360. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "41501.00",
+    "count": 43,
+    "date": "2025-06-07T18:32:21.983Z",
+    "freeDelivery": false,
+    "image": "products/1_693624.jpg",
+    "image_alt": "Изображение HP Spectre x360",
+    "rating": 4.0,
+    "purchases_count": 0,
+    "limited": false,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 16,
+  "fields": {
+    "category": 7,
+    "title": "Apple Mac Studio",
+    "description": "Краткое описание товара Apple Mac Studio",
+    "fullDescription": "Полное описание товара Apple Mac Studio. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "35389.00",
+    "count": 17,
+    "date": "2025-06-07T18:32:21.985Z",
+    "freeDelivery": false,
+    "image": "products/apple-mac-studio-2023-22.png",
+    "image_alt": "Изображение Apple Mac Studio",
+    "rating": 4.0,
+    "purchases_count": 0,
+    "limited": false,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      2,
+      3,
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 17,
+  "fields": {
+    "category": 7,
+    "title": "Dell Alienware Aurora",
+    "description": "Краткое описание товара Dell Alienware Aurora",
+    "fullDescription": "Полное описание товара Dell Alienware Aurora. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "19600.00",
+    "count": 26,
+    "date": "2025-06-07T18:32:21.988Z",
+    "freeDelivery": false,
+    "image": "products/662C5345-B651-4BA2-9E20-1E0785C196C2.webp",
+    "image_alt": "Изображение Dell Alienware Aurora",
+    "rating": 4.2,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 18,
+  "fields": {
+    "category": 7,
+    "title": "HP Omen 45L",
+    "description": "Краткое описание товара HP Omen 45L",
+    "fullDescription": "Полное описание товара HP Omen 45L. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "21466.00",
+    "count": 35,
+    "date": "2025-06-07T18:32:21.991Z",
+    "freeDelivery": false,
+    "image": "products/6_20_1_4138a3c5-4151-4d03-96fc-9e28f78bd245_480x480.webp",
+    "image_alt": "Изображение HP Omen 45L",
+    "rating": 4.2,
+    "purchases_count": 0,
+    "limited": false,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      4,
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 19,
+  "fields": {
+    "category": 7,
+    "title": "Lenovo Legion Tower",
+    "description": "Краткое описание товара Lenovo Legion Tower",
+    "fullDescription": "Полное описание товара Lenovo Legion Tower. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "21651.00",
+    "count": 12,
+    "date": "2025-06-07T18:32:21.993Z",
+    "freeDelivery": true,
+    "image": "products/_57.jpeg",
+    "image_alt": "Изображение Lenovo Legion Tower",
+    "rating": 4.3,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": true,
+    "tags": [
+      1,
+      2,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 20,
+  "fields": {
+    "category": 7,
+    "title": "ASUS ROG Strix",
+    "description": "Краткое описание товара ASUS ROG Strix",
+    "fullDescription": "Полное описание товара ASUS ROG Strix. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "37183.00",
+    "count": 11,
+    "date": "2025-06-07T18:32:21.997Z",
+    "freeDelivery": true,
+    "image": "products/002.jpg",
+    "image_alt": "Изображение ASUS ROG Strix",
+    "rating": 4.9,
+    "purchases_count": 1,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 21,
+  "fields": {
+    "category": 8,
+    "title": "Мультиварка Redmond",
+    "description": "Краткое описание товара Мультиварка Redmond",
+    "fullDescription": "Полное описание товара Мультиварка Redmond. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "44733.00",
+    "count": 37,
+    "date": "2025-06-07T18:32:22Z",
+    "freeDelivery": false,
+    "image": "products/redmond_rmc-m45021.jpg",
+    "image_alt": "Изображение Мультиварка Redmond",
+    "rating": 3.7,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      1,
+      2,
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 22,
+  "fields": {
+    "category": 8,
+    "title": "Кофемашина DeLonghi",
+    "description": "Краткое описание товара Кофемашина DeLonghi",
+    "fullDescription": "Полное описание товара Кофемашина DeLonghi. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "20800.00",
+    "count": 19,
+    "date": "2025-06-07T18:32:22.002Z",
+    "freeDelivery": false,
+    "image": "products/24200100_1.jpg",
+    "image_alt": "Изображение Кофемашина DeLonghi",
+    "rating": 4.7,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 23,
+  "fields": {
+    "category": 8,
+    "title": "Блендер Philips",
+    "description": "Краткое описание товара Блендер Philips",
+    "fullDescription": "Полное описание товара Блендер Philips. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "19722.00",
+    "count": 41,
+    "date": "2025-06-07T18:32:22.004Z",
+    "freeDelivery": true,
+    "image": "products/orig_1jyk-y0.jpg",
+    "image_alt": "Изображение Блендер Philips",
+    "rating": 4.8,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      1,
+      5,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 24,
+  "fields": {
+    "category": 8,
+    "title": "Микроволновая печь Samsung",
+    "description": "Краткое описание товара Микроволновая печь Samsung",
+    "fullDescription": "Полное описание товара Микроволновая печь Samsung. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "15774.00",
+    "count": 24,
+    "date": "2025-06-07T18:32:22.007Z",
+    "freeDelivery": false,
+    "image": "products/1873989-1-800Wx800H.webp",
+    "image_alt": "Изображение Микроволновая печь Samsung",
+    "rating": 4.4,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      4,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 25,
+  "fields": {
+    "category": 8,
+    "title": "Холодильник LG",
+    "description": "Краткое описание товара Холодильник LG",
+    "fullDescription": "Полное описание товара Холодильник LG. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "37859.00",
+    "count": 14,
+    "date": "2025-06-07T18:32:22.009Z",
+    "freeDelivery": false,
+    "image": "products/1_763067.jpeg",
+    "image_alt": "Изображение Холодильник LG",
+    "rating": 3.8,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": true,
+    "tags": [
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 26,
+  "fields": {
+    "category": 9,
+    "title": "Пылесос Dyson V11",
+    "description": "Краткое описание товара Пылесос Dyson V11",
+    "fullDescription": "Полное описание товара Пылесос Dyson V11. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "47640.00",
+    "count": 36,
+    "date": "2025-06-07T18:32:22.011Z",
+    "freeDelivery": true,
+    "image": "products/giwep6fz8ixj45d_99db4e34.jpg.webp",
+    "image_alt": "Изображение Пылесос Dyson V11",
+    "rating": 3.7,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      3,
+      4,
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 27,
+  "fields": {
+    "category": 9,
+    "title": "Стиральная машина Bosch",
+    "description": "Краткое описание товара Стиральная машина Bosch",
+    "fullDescription": "Полное описание товара Стиральная машина Bosch. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "33097.00",
+    "count": 11,
+    "date": "2025-06-07T18:32:22.015Z",
+    "freeDelivery": false,
+    "image": "products/oad-resize_cache-iblock-abe-1900_563_1-sqz0b6ssiwjwlpczjghlg1ocpvzr31n8-800x800.jpg",
+    "image_alt": "Изображение Стиральная машина Bosch",
+    "rating": 4.6,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      2,
+      7
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 28,
+  "fields": {
+    "category": 9,
+    "title": "Кондиционер Mitsubishi",
+    "description": "Краткое описание товара Кондиционер Mitsubishi",
+    "fullDescription": "Полное описание товара Кондиционер Mitsubishi. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "16231.00",
+    "count": 7,
+    "date": "2025-06-07T18:32:22.017Z",
+    "freeDelivery": false,
+    "image": "products/b50416fea7d63df319817729b2d31cec1.jpg",
+    "image_alt": "Изображение Кондиционер Mitsubishi",
+    "rating": 3.8,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      9
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 29,
+  "fields": {
+    "category": 9,
+    "title": "Робот-пылесос Xiaomi",
+    "description": "Краткое описание товара Робот-пылесос Xiaomi",
+    "fullDescription": "Полное описание товара Робот-пылесос Xiaomi. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "25197.00",
+    "count": 18,
+    "date": "2025-06-07T18:32:22Z",
+    "freeDelivery": true,
+    "image": "products/a02ac21e49a93f0c5fc971803025c4ea.png",
+    "image_alt": "Изображение Робот-пылесос Xiaomi",
+    "rating": 4.2,
+    "purchases_count": 0,
+    "limited": true,
+    "is_active": true,
+    "is_banner": false,
+    "tags": [
+      6,
+      8
+    ]
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 30,
+  "fields": {
+    "category": 9,
+    "title": "Утюг Philips",
+    "description": "Краткое описание товара Утюг Philips",
+    "fullDescription": "Полное описание товара Утюг Philips. Здесь содержится подробная информация о характеристиках, особенностях и преимуществах данного товара. Товар отличается высоким качеством и надежностью.",
+    "price": "37194.00",
+    "count": 42,
+    "date": "2025-06-07T18:32:22Z",
+    "freeDelivery": true,
+    "image": "products/6916065136.jpg",
+    "image_alt": "Изображение Утюг Philips",
+    "rating": 3.8,
+    "purchases_count": 0,
+    "limited": false,
+    "is_active": true,
+    "is_banner": true,
+    "tags": [
+      1,
+      7,
+      10
+    ]
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 4,
+  "fields": {
+    "product": 2,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 5,
+  "fields": {
+    "product": 2,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 6,
+  "fields": {
+    "product": 2,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 7,
+  "fields": {
+    "product": 2,
+    "name": "Характеристика 4",
+    "value": "Значение 4"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 8,
+  "fields": {
+    "product": 3,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 9,
+  "fields": {
+    "product": 3,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 10,
+  "fields": {
+    "product": 3,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 11,
+  "fields": {
+    "product": 4,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 12,
+  "fields": {
+    "product": 4,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 13,
+  "fields": {
+    "product": 5,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 14,
+  "fields": {
+    "product": 5,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 15,
+  "fields": {
+    "product": 6,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 16,
+  "fields": {
+    "product": 6,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 17,
+  "fields": {
+    "product": 6,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 18,
+  "fields": {
+    "product": 7,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 19,
+  "fields": {
+    "product": 7,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 20,
+  "fields": {
+    "product": 8,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 21,
+  "fields": {
+    "product": 8,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 22,
+  "fields": {
+    "product": 8,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 23,
+  "fields": {
+    "product": 9,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 24,
+  "fields": {
+    "product": 9,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 25,
+  "fields": {
+    "product": 10,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 26,
+  "fields": {
+    "product": 10,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 27,
+  "fields": {
+    "product": 10,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 28,
+  "fields": {
+    "product": 11,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 29,
+  "fields": {
+    "product": 11,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 30,
+  "fields": {
+    "product": 12,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 31,
+  "fields": {
+    "product": 12,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 32,
+  "fields": {
+    "product": 12,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 33,
+  "fields": {
+    "product": 12,
+    "name": "Характеристика 4",
+    "value": "Значение 4"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 34,
+  "fields": {
+    "product": 13,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 35,
+  "fields": {
+    "product": 13,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 36,
+  "fields": {
+    "product": 13,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 37,
+  "fields": {
+    "product": 13,
+    "name": "Характеристика 4",
+    "value": "Значение 4"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 38,
+  "fields": {
+    "product": 14,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 39,
+  "fields": {
+    "product": 14,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 40,
+  "fields": {
+    "product": 15,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 41,
+  "fields": {
+    "product": 15,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 42,
+  "fields": {
+    "product": 16,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 43,
+  "fields": {
+    "product": 16,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 44,
+  "fields": {
+    "product": 16,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 45,
+  "fields": {
+    "product": 16,
+    "name": "Характеристика 4",
+    "value": "Значение 4"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 46,
+  "fields": {
+    "product": 17,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 47,
+  "fields": {
+    "product": 17,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 48,
+  "fields": {
+    "product": 18,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 49,
+  "fields": {
+    "product": 18,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 50,
+  "fields": {
+    "product": 18,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 51,
+  "fields": {
+    "product": 18,
+    "name": "Характеристика 4",
+    "value": "Значение 4"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 52,
+  "fields": {
+    "product": 19,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 53,
+  "fields": {
+    "product": 19,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 54,
+  "fields": {
+    "product": 20,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 55,
+  "fields": {
+    "product": 20,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 56,
+  "fields": {
+    "product": 20,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 57,
+  "fields": {
+    "product": 21,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 58,
+  "fields": {
+    "product": 21,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 59,
+  "fields": {
+    "product": 22,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 60,
+  "fields": {
+    "product": 22,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 61,
+  "fields": {
+    "product": 22,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 62,
+  "fields": {
+    "product": 23,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 63,
+  "fields": {
+    "product": 23,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 64,
+  "fields": {
+    "product": 24,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 65,
+  "fields": {
+    "product": 24,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 66,
+  "fields": {
+    "product": 25,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 67,
+  "fields": {
+    "product": 25,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 68,
+  "fields": {
+    "product": 25,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 69,
+  "fields": {
+    "product": 26,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 70,
+  "fields": {
+    "product": 26,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 71,
+  "fields": {
+    "product": 26,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 72,
+  "fields": {
+    "product": 27,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 73,
+  "fields": {
+    "product": 27,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 74,
+  "fields": {
+    "product": 27,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 75,
+  "fields": {
+    "product": 28,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 76,
+  "fields": {
+    "product": 28,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 77,
+  "fields": {
+    "product": 29,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 78,
+  "fields": {
+    "product": 29,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 79,
+  "fields": {
+    "product": 29,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 80,
+  "fields": {
+    "product": 30,
+    "name": "Характеристика 1",
+    "value": "Значение 1"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 81,
+  "fields": {
+    "product": 30,
+    "name": "Характеристика 2",
+    "value": "Значение 2"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 82,
+  "fields": {
+    "product": 30,
+    "name": "Характеристика 3",
+    "value": "Значение 3"
+  }
+},
+{
+  "model": "catalog.specification",
+  "pk": 83,
+  "fields": {
+    "product": 30,
+    "name": "Характеристика 4",
+    "value": "Значение 4"
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 4,
+    "date": "2025-05-28T18:32:21.947Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 4,
+    "date": "2025-05-15T18:32:21.948Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 3,
+  "fields": {
+    "product": 2,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 5,
+    "date": "2025-05-14T18:32:21.950Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 4,
+  "fields": {
+    "product": 2,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Отличное качество сборки и материалов. Очень доволен приобретением.",
+    "rate": 5,
+    "date": "2025-05-17T18:32:21.951Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 5,
+  "fields": {
+    "product": 2,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Отличное качество сборки и материалов. Очень доволен приобретением.",
+    "rate": 4,
+    "date": "2025-05-29T18:32:21.951Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 6,
+  "fields": {
+    "product": 2,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 3,
+    "date": "2025-05-24T18:32:21.951Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 7,
+  "fields": {
+    "product": 3,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Не совсем то, что ожидал. Есть как плюсы, так и минусы.",
+    "rate": 3,
+    "date": "2025-05-28T18:32:21.953Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 8,
+  "fields": {
+    "product": 3,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Товар неплохой, но есть небольшие недостатки. Ожидал большего за такую цену.",
+    "rate": 5,
+    "date": "2025-05-24T18:32:21.953Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 9,
+  "fields": {
+    "product": 3,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Не совсем то, что ожидал. Есть как плюсы, так и минусы.",
+    "rate": 4,
+    "date": "2025-05-09T18:32:21.954Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 10,
+  "fields": {
+    "product": 4,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Превосходное качество! Использую уже несколько месяцев - никаких нареканий.",
+    "rate": 4,
+    "date": "2025-05-22T18:32:21.956Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 11,
+  "fields": {
+    "product": 4,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 3,
+    "date": "2025-05-22T18:32:21.956Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 12,
+  "fields": {
+    "product": 4,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Товар неплохой, но есть небольшие недостатки. Ожидал большего за такую цену.",
+    "rate": 3,
+    "date": "2025-05-18T18:32:21.956Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 13,
+  "fields": {
+    "product": 4,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Товар неплохой, но есть небольшие недостатки. Ожидал большего за такую цену.",
+    "rate": 3,
+    "date": "2025-05-09T18:32:21.956Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 14,
+  "fields": {
+    "product": 5,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Отличный товар! Полностью соответствует описанию. Рекомендую к покупке.",
+    "rate": 3,
+    "date": "2025-05-21T18:32:21.959Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 15,
+  "fields": {
+    "product": 5,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 3,
+    "date": "2025-05-10T18:32:21.959Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 16,
+  "fields": {
+    "product": 6,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Товар неплохой, но есть небольшие недостатки. Ожидал большего за такую цену.",
+    "rate": 5,
+    "date": "2025-05-21T18:32:21.962Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 17,
+  "fields": {
+    "product": 7,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 4,
+    "date": "2025-05-22T18:32:21.964Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 18,
+  "fields": {
+    "product": 8,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 5,
+    "date": "2025-05-16T18:32:21.967Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 19,
+  "fields": {
+    "product": 8,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 5,
+    "date": "2025-05-30T18:32:21.967Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 20,
+  "fields": {
+    "product": 9,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 3,
+    "date": "2025-05-29T18:32:21.969Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 21,
+  "fields": {
+    "product": 9,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 5,
+    "date": "2025-05-23T18:32:21.969Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 22,
+  "fields": {
+    "product": 9,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 4,
+    "date": "2025-05-12T18:32:21.970Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 23,
+  "fields": {
+    "product": 10,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 5,
+    "date": "2025-06-04T18:32:21.972Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 24,
+  "fields": {
+    "product": 10,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 4,
+    "date": "2025-05-19T18:32:21.972Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 25,
+  "fields": {
+    "product": 11,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Отличное качество сборки и материалов. Очень доволен приобретением.",
+    "rate": 5,
+    "date": "2025-05-09T18:32:21.974Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 26,
+  "fields": {
+    "product": 11,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 4,
+    "date": "2025-05-18T18:32:21.974Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 27,
+  "fields": {
+    "product": 11,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 4,
+    "date": "2025-05-30T18:32:21.975Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 28,
+  "fields": {
+    "product": 12,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Отличный товар! Полностью соответствует описанию. Рекомендую к покупке.",
+    "rate": 4,
+    "date": "2025-05-12T18:32:21.978Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 29,
+  "fields": {
+    "product": 13,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 5,
+    "date": "2025-05-15T18:32:21.980Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 30,
+  "fields": {
+    "product": 14,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Отличный товар! Полностью соответствует описанию. Рекомендую к покупке.",
+    "rate": 3,
+    "date": "2025-05-19T18:32:21.982Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 31,
+  "fields": {
+    "product": 14,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Не совсем то, что ожидал. Есть как плюсы, так и минусы.",
+    "rate": 3,
+    "date": "2025-05-16T18:32:21.982Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 32,
+  "fields": {
+    "product": 14,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Просто супер! Лучшая покупка за последнее время. Всем советую!",
+    "rate": 4,
+    "date": "2025-05-10T18:32:21.982Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 33,
+  "fields": {
+    "product": 14,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 3,
+    "date": "2025-05-09T18:32:21.983Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 34,
+  "fields": {
+    "product": 15,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Превосходное качество! Использую уже несколько месяцев - никаких нареканий.",
+    "rate": 3,
+    "date": "2025-05-26T18:32:21.985Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 35,
+  "fields": {
+    "product": 16,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Отличный товар! Полностью соответствует описанию. Рекомендую к покупке.",
+    "rate": 3,
+    "date": "2025-05-10T18:32:21.987Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 36,
+  "fields": {
+    "product": 16,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Не совсем то, что ожидал. Есть как плюсы, так и минусы.",
+    "rate": 5,
+    "date": "2025-05-25T18:32:21.987Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 37,
+  "fields": {
+    "product": 17,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 3,
+    "date": "2025-05-26T18:32:21.990Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 38,
+  "fields": {
+    "product": 17,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 4,
+    "date": "2025-05-18T18:32:21.990Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 39,
+  "fields": {
+    "product": 18,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Товар неплохой, но есть небольшие недостатки. Ожидал большего за такую цену.",
+    "rate": 5,
+    "date": "2025-05-31T18:32:21.993Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 40,
+  "fields": {
+    "product": 18,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Не совсем то, что ожидал. Есть как плюсы, так и минусы.",
+    "rate": 5,
+    "date": "2025-05-13T18:32:21.993Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 41,
+  "fields": {
+    "product": 18,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Хорошее соотношение цена-качество. Работает стабильно и надежно.",
+    "rate": 3,
+    "date": "2025-05-14T18:32:21.993Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 42,
+  "fields": {
+    "product": 19,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 3,
+    "date": "2025-05-29T18:32:21.995Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 43,
+  "fields": {
+    "product": 19,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Просто супер! Лучшая покупка за последнее время. Всем советую!",
+    "rate": 5,
+    "date": "2025-05-10T18:32:21.996Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 44,
+  "fields": {
+    "product": 19,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 3,
+    "date": "2025-06-01T18:32:21.996Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 45,
+  "fields": {
+    "product": 19,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 4,
+    "date": "2025-05-30T18:32:21.996Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 46,
+  "fields": {
+    "product": 20,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Просто супер! Лучшая покупка за последнее время. Всем советую!",
+    "rate": 4,
+    "date": "2025-06-03T18:32:21.999Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 47,
+  "fields": {
+    "product": 20,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Товар неплохой, но есть небольшие недостатки. Ожидал большего за такую цену.",
+    "rate": 3,
+    "date": "2025-06-06T18:32:21.999Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 48,
+  "fields": {
+    "product": 21,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 4,
+    "date": "2025-05-28T18:32:22.002Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 49,
+  "fields": {
+    "product": 22,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Просто супер! Лучшая покупка за последнее время. Всем советую!",
+    "rate": 4,
+    "date": "2025-06-04T18:32:22.004Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 50,
+  "fields": {
+    "product": 23,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Хорошее соотношение цена-качество. Работает стабильно и надежно.",
+    "rate": 4,
+    "date": "2025-05-18T18:32:22.006Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 51,
+  "fields": {
+    "product": 23,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 3,
+    "date": "2025-05-15T18:32:22.006Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 52,
+  "fields": {
+    "product": 23,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 3,
+    "date": "2025-05-11T18:32:22.007Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 53,
+  "fields": {
+    "product": 23,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 4,
+    "date": "2025-05-21T18:32:22.007Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 54,
+  "fields": {
+    "product": 24,
+    "author": "Александр Смирнов",
+    "email": "user2@example.com",
+    "text": "Отличный товар! Полностью соответствует описанию. Рекомендую к покупке.",
+    "rate": 5,
+    "date": "2025-05-28T18:32:22.009Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 55,
+  "fields": {
+    "product": 25,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 4,
+    "date": "2025-05-13T18:32:22.011Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 56,
+  "fields": {
+    "product": 26,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Превосходное качество! Использую уже несколько месяцев - никаких нареканий.",
+    "rate": 4,
+    "date": "2025-05-16T18:32:22.013Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 57,
+  "fields": {
+    "product": 26,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 5,
+    "date": "2025-05-24T18:32:22.014Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 58,
+  "fields": {
+    "product": 26,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Товар неплохой, но есть небольшие недостатки. Ожидал большего за такую цену.",
+    "rate": 4,
+    "date": "2025-05-27T18:32:22.014Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 59,
+  "fields": {
+    "product": 26,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Качество хорошее, но цена могла бы быть ниже. В целом доволен покупкой.",
+    "rate": 3,
+    "date": "2025-05-25T18:32:22.014Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 60,
+  "fields": {
+    "product": 27,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Товар неплохой, но есть небольшие недостатки. Ожидал большего за такую цену.",
+    "rate": 4,
+    "date": "2025-05-26T18:32:22.017Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 61,
+  "fields": {
+    "product": 27,
+    "author": "Анна Морозова",
+    "email": "user5@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 5,
+    "date": "2025-05-26T18:32:22.017Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 62,
+  "fields": {
+    "product": 28,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 5,
+    "date": "2025-05-28T18:32:22.019Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 63,
+  "fields": {
+    "product": 29,
+    "author": "Иван Петров",
+    "email": "user1@example.com",
+    "text": "Идеальный вариант для своих денег. Пользуюсь с удовольствием!",
+    "rate": 4,
+    "date": "2025-05-22T18:32:22.022Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 64,
+  "fields": {
+    "product": 29,
+    "author": "Дмитрий Козлов",
+    "email": "user4@example.com",
+    "text": "Не совсем то, что ожидал. Есть как плюсы, так и минусы.",
+    "rate": 3,
+    "date": "2025-06-03T18:32:22.022Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 65,
+  "fields": {
+    "product": 30,
+    "author": "Екатерина Иванова",
+    "email": "user3@example.com",
+    "text": "Функциональность на высоте, но дизайн мог бы быть лучше.",
+    "rate": 3,
+    "date": "2025-05-14T18:32:22.025Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.review",
+  "pk": 66,
+  "fields": {
+    "product": 1,
+    "author": "Администратор",
+    "email": "admin@example.com",
+    "text": "Не очень",
+    "rate": 3,
+    "date": "2025-06-07T21:25:12.754Z",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 2,
+  "fields": {
+    "product": 6,
+    "salePrice": "24075.09",
+    "dateFrom": "2025-05-28",
+    "dateTo": "2025-06-17",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 3,
+  "fields": {
+    "product": 7,
+    "salePrice": "12593.18",
+    "dateFrom": "2025-06-04",
+    "dateTo": "2025-07-07",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 4,
+  "fields": {
+    "product": 9,
+    "salePrice": "9664.24",
+    "dateFrom": "2025-06-01",
+    "dateTo": "2025-07-02",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 5,
+  "fields": {
+    "product": 11,
+    "salePrice": "10405.74",
+    "dateFrom": "2025-06-04",
+    "dateTo": "2025-06-28",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 6,
+  "fields": {
+    "product": 16,
+    "salePrice": "26884.65",
+    "dateFrom": "2025-05-30",
+    "dateTo": "2025-06-18",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 7,
+  "fields": {
+    "product": 17,
+    "salePrice": "17017.57",
+    "dateFrom": "2025-06-01",
+    "dateTo": "2025-06-24",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 8,
+  "fields": {
+    "product": 19,
+    "salePrice": "16815.91",
+    "dateFrom": "2025-06-03",
+    "dateTo": "2025-07-01",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 9,
+  "fields": {
+    "product": 21,
+    "salePrice": "36590.45",
+    "dateFrom": "2025-05-31",
+    "dateTo": "2025-06-18",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 10,
+  "fields": {
+    "product": 26,
+    "salePrice": "37462.54",
+    "dateFrom": "2025-06-01",
+    "dateTo": "2025-06-24",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 11,
+  "fields": {
+    "product": 28,
+    "salePrice": "11976.59",
+    "dateFrom": "2025-05-29",
+    "dateTo": "2025-06-27",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 12,
+  "fields": {
+    "product": 30,
+    "salePrice": "27891.38",
+    "dateFrom": "2025-05-29",
+    "dateTo": "2025-06-25",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 13,
+  "fields": {
+    "product": 1,
+    "salePrice": "100.00",
+    "dateFrom": "2025-06-07",
+    "dateTo": "2025-09-01",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 14,
+  "fields": {
+    "product": 3,
+    "salePrice": "150.00",
+    "dateFrom": "2025-06-07",
+    "dateTo": "2025-09-01",
+    "is_active": true
+  }
+},
+{
+  "model": "catalog.sale",
+  "pk": 15,
+  "fields": {
+    "product": 4,
+    "salePrice": "200.00",
+    "dateFrom": "2025-06-08",
+    "dateTo": "2025-09-01",
+    "is_active": true
+  }
+},
+{
+  "model": "basket.basketitem",
+  "pk": 34,
+  "fields": {
+    "user": 1,
+    "product": 3,
+    "count": 1,
+    "added_at": "2025-06-08T15:37:50.237Z"
+  }
+},
+{
+  "model": "basket.basketitem",
+  "pk": 35,
+  "fields": {
+    "user": 1,
+    "product": 4,
+    "count": 1,
+    "added_at": "2025-06-08T16:08:15.916Z"
+  }
+},
+{
+  "model": "orders.deliverysettings",
+  "pk": 1,
+  "fields": {
+    "express_delivery_cost": "500.00",
+    "free_delivery_threshold": "2000.00",
+    "regular_delivery_cost": "200.00"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "email": "admin@example.com",
+    "phone": "+7(000)000-00-00",
+    "createdAt": "2025-06-07T18:34:27.846Z",
+    "deliveryType": "ordinary",
+    "paymentType": "someone",
+    "totalCost": "450.00",
+    "status": "processing",
+    "city": "Симферополь",
+    "address": "Кечкеметская 194-105",
+    "comment": "",
+    "is_active": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "email": "admin@example.com",
+    "phone": "+7(000)000-00-00",
+    "createdAt": "2025-06-07T18:35:31.602Z",
+    "deliveryType": "express",
+    "paymentType": "someone",
+    "totalCost": "600.00",
+    "status": "accepted",
+    "city": "Симферополь",
+    "address": "Кечкеметская 194-105",
+    "comment": "",
+    "is_active": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "email": "admin@example.com",
+    "phone": "+7(000)000-00-00",
+    "createdAt": "2025-06-07T20:58:26.898Z",
+    "deliveryType": "ordinary",
+    "paymentType": "someone",
+    "totalCost": "450.00",
+    "status": "processing",
+    "city": "Москва",
+    "address": "Красная Площадь",
+    "comment": "",
+    "is_active": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "email": "admin@example.com",
+    "phone": "+7(000)000-00-00",
+    "createdAt": "2025-06-07T21:22:12.740Z",
+    "deliveryType": "ordinary",
+    "paymentType": "someone",
+    "totalCost": "300.00",
+    "status": "accepted",
+    "city": "Питер",
+    "address": "Невский",
+    "comment": "",
+    "is_active": true
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 1,
+    "price": "100.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 1,
+    "product": 3,
+    "price": "150.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 2,
+    "product": 1,
+    "price": "100.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 3,
+    "product": 1,
+    "price": "100.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 5,
+  "fields": {
+    "order": 3,
+    "product": 3,
+    "price": "150.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 4,
+    "product": 1,
+    "price": "100.00",
+    "count": 1
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "payment_type": "someone",
+    "number": "11408544",
+    "name": null,
+    "month": null,
+    "year": null,
+    "code": null,
+    "created_at": "2025-06-07T18:34:56.153Z",
+    "processed_at": "2025-06-07T18:35:01.173Z",
+    "status": "success",
+    "error_message": null
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "payment_type": "someone",
+    "number": "21260080",
+    "name": null,
+    "month": null,
+    "year": null,
+    "code": null,
+    "created_at": "2025-06-07T18:35:46.085Z",
+    "processed_at": "2025-06-07T18:35:51.101Z",
+    "status": "failed",
+    "error_message": "Подозрительная операция"
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "payment_type": "someone",
+    "number": "27288548",
+    "name": null,
+    "month": null,
+    "year": null,
+    "code": null,
+    "created_at": "2025-06-07T20:59:13.966Z",
+    "processed_at": "2025-06-07T20:59:18.976Z",
+    "status": "success",
+    "error_message": null
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 4,
+  "fields": {
+    "order": 4,
+    "payment_type": "someone",
+    "number": "81346030",
+    "name": null,
+    "month": null,
+    "year": null,
+    "code": null,
+    "created_at": "2025-06-07T21:24:23.833Z",
+    "processed_at": "2025-06-07T21:24:28.845Z",
+    "status": "failed",
+    "error_message": "Подозрительная операция"
+  }
+}
+]

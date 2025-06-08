@@ -1,0 +1,70 @@
+[
+{
+  "model": "payments.payment",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "payment_type": "someone",
+    "number": "11408544",
+    "name": null,
+    "month": null,
+    "year": null,
+    "code": null,
+    "created_at": "2025-06-07T18:34:56.153Z",
+    "processed_at": "2025-06-07T18:35:01.173Z",
+    "status": "success",
+    "error_message": null
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "payment_type": "someone",
+    "number": "21260080",
+    "name": null,
+    "month": null,
+    "year": null,
+    "code": null,
+    "created_at": "2025-06-07T18:35:46.085Z",
+    "processed_at": "2025-06-07T18:35:51.101Z",
+    "status": "failed",
+    "error_message": "Подозрительная операция"
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "payment_type": "someone",
+    "number": "27288548",
+    "name": null,
+    "month": null,
+    "year": null,
+    "code": null,
+    "created_at": "2025-06-07T20:59:13.966Z",
+    "processed_at": "2025-06-07T20:59:18.976Z",
+    "status": "success",
+    "error_message": null
+  }
+},
+{
+  "model": "payments.payment",
+  "pk": 4,
+  "fields": {
+    "order": 4,
+    "payment_type": "someone",
+    "number": "81346030",
+    "name": null,
+    "month": null,
+    "year": null,
+    "code": null,
+    "created_at": "2025-06-07T21:24:23.833Z",
+    "processed_at": "2025-06-07T21:24:28.845Z",
+    "status": "failed",
+    "error_message": "Подозрительная операция"
+  }
+}
+]

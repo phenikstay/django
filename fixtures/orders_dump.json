@@ -1,0 +1,147 @@
+[
+{
+  "model": "orders.deliverysettings",
+  "pk": 1,
+  "fields": {
+    "express_delivery_cost": "500.00",
+    "free_delivery_threshold": "2000.00",
+    "regular_delivery_cost": "200.00"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "email": "admin@example.com",
+    "phone": "+7(000)000-00-00",
+    "createdAt": "2025-06-07T18:34:27.846Z",
+    "deliveryType": "ordinary",
+    "paymentType": "someone",
+    "totalCost": "450.00",
+    "status": "processing",
+    "city": "Симферополь",
+    "address": "Кечкеметская 194-105",
+    "comment": "",
+    "is_active": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "email": "admin@example.com",
+    "phone": "+7(000)000-00-00",
+    "createdAt": "2025-06-07T18:35:31.602Z",
+    "deliveryType": "express",
+    "paymentType": "someone",
+    "totalCost": "600.00",
+    "status": "accepted",
+    "city": "Симферополь",
+    "address": "Кечкеметская 194-105",
+    "comment": "",
+    "is_active": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "email": "admin@example.com",
+    "phone": "+7(000)000-00-00",
+    "createdAt": "2025-06-07T20:58:26.898Z",
+    "deliveryType": "ordinary",
+    "paymentType": "someone",
+    "totalCost": "450.00",
+    "status": "processing",
+    "city": "Москва",
+    "address": "Красная Площадь",
+    "comment": "",
+    "is_active": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "email": "admin@example.com",
+    "phone": "+7(000)000-00-00",
+    "createdAt": "2025-06-07T21:22:12.740Z",
+    "deliveryType": "ordinary",
+    "paymentType": "someone",
+    "totalCost": "300.00",
+    "status": "accepted",
+    "city": "Питер",
+    "address": "Невский",
+    "comment": "",
+    "is_active": true
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 1,
+    "price": "100.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 1,
+    "product": 3,
+    "price": "150.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 2,
+    "product": 1,
+    "price": "100.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 3,
+    "product": 1,
+    "price": "100.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 5,
+  "fields": {
+    "order": 3,
+    "product": 3,
+    "price": "150.00",
+    "count": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 4,
+    "product": 1,
+    "price": "100.00",
+    "count": 1
+  }
+}
+]

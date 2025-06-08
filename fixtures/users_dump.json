@@ -1,0 +1,68 @@
+[
+{
+  "model": "users.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "fullName": "Администратор",
+    "phone": "+7(000)000-00-00",
+    "avatar": "avatars/73134-4_8bSjqD5.png",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "fullName": "Иван Петров",
+    "phone": "+7(921)111-22-33",
+    "avatar": "avatars/1662642122_5-kartinkin-net-p-risunok-na-avatarku-dlya-muzhchin-instagra-5.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "fullName": "Александр Смирнов",
+    "phone": "+7(905)222-33-44",
+    "avatar": "avatars/1662642172_2-kartinkin-net-p-risunok-na-avatarku-dlya-muzhchin-instagra-2.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "fullName": "Екатерина Иванова",
+    "phone": "+7(911)333-44-55",
+    "avatar": "avatars/varvara-mitiaeva-2.webp",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "fullName": "Дмитрий Козлов",
+    "phone": "+7(903)444-55-66",
+    "avatar": "avatars/7181149979b9cc345415d3b6465b192b.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "users.profile",
+  "pk": 6,
+  "fields": {
+    "user": 6,
+    "fullName": "Анна Морозова",
+    "phone": "+7(912)555-66-77",
+    "avatar": "avatars/iuliia-shmyreva-1.webp",
+    "is_active": true
+  }
+}
+]

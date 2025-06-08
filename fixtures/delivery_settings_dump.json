@@ -1,0 +1,11 @@
+[
+{
+  "model": "orders.deliverysettings",
+  "pk": 1,
+  "fields": {
+    "express_delivery_cost": "500.00",
+    "free_delivery_threshold": "2000.00",
+    "regular_delivery_cost": "200.00"
+  }
+}
+]

@@ -1,0 +1,22 @@
+[
+{
+  "model": "basket.basketitem",
+  "pk": 34,
+  "fields": {
+    "user": 1,
+    "product": 3,
+    "count": 1,
+    "added_at": "2025-06-08T15:37:50.237Z"
+  }
+},
+{
+  "model": "basket.basketitem",
+  "pk": 35,
+  "fields": {
+    "user": 1,
+    "product": 4,
+    "count": 1,
+    "added_at": "2025-06-08T16:08:15.916Z"
+  }
+}
+]
